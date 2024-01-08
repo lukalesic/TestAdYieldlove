@@ -1,0 +1,6 @@
+framework module YieldloveAdIntegration {
+  umbrella header "YieldloveAdIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}

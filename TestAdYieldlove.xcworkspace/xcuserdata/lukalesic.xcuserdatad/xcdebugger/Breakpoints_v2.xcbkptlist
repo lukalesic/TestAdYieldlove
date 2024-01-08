@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "048E2760-7FFF-4C2E-8A63-703B378F0F29"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "804C8C5D-BC0B-43D5-A2FC-6891FDAEE63A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAdYieldlove/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFBAFD5B-DC16-4140-966D-4124342C07C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAdYieldlove/Ads/YieldloveAdIntegrationBridge.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "requestAd(with:inViewController:addedTo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFBAFD5B-DC16-4140-966D-4124342C07C2 - 1955ffd3b4ee70bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAdYieldlove.YieldloveAdIntegrationBridge.requestAd(with: Swift.String, inViewController: __C.UIViewController, addedTo: __C.UIView, completion: Swift.Optional&lt;(__C.CGSize, Swift.Optional&lt;YieldloveAdIntegration.YLBannerView&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "TestAdYieldlove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukalesic/ProgrammingPractice/UIKit/TestAdYieldlove/TestAdYieldlove/Ads/YieldloveAdIntegrationBridge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "BFBAFD5B-DC16-4140-966D-4124342C07C2 - 4117282cffdb4085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.CGSize, Swift.Optional&lt;YieldloveAdIntegration.YLBannerView&gt;, Swift.Optional&lt;Swift.Error&gt;, Foundation.UUID) -&gt; () in TestAdYieldlove.YieldloveAdIntegrationBridge.requestAd(with: Swift.String, inViewController: __C.UIViewController, addedTo: __C.UIView, completion: Swift.Optional&lt;(__C.CGSize, Swift.Optional&lt;YieldloveAdIntegration.YLBannerView&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "TestAdYieldlove"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukalesic/ProgrammingPractice/UIKit/TestAdYieldlove/TestAdYieldlove/Ads/YieldloveAdIntegrationBridge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE3C0311-E860-4644-91CC-1AFD9D7B2964"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAdYieldlove/Ads/YieldloveAdIntegrationBridge.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "requestAd(with:inViewController:addedTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E22EE33-9B12-468B-8EAC-6F3401C477A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAdYieldlove/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

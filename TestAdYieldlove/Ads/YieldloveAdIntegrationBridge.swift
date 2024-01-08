@@ -81,7 +81,7 @@ fileprivate class YieldAdLoader: YLBannerViewDelegate {
 
     @objc static let shared = YieldloveAdIntegrationBridge()
     @objc static let onConsentReadyDidUpdateNotification = "onConsentReadyDidUpdateNotification"
-    @objc private(set) var isConsentReady: Bool = false
+    @objc private(set) var isConsentReady: Bool = true
 
     private var isConsentNotificationPosted = false
     private var adLoaders = [UUID: YieldAdLoader]()
@@ -93,9 +93,9 @@ fileprivate class YieldAdLoader: YLBannerViewDelegate {
         Yieldlove.setup(appName: "smb_quizquest")
         YLConsent.instance.setAppName(appName: "smb_quizquest")
 //        
-//        #if DEBUG
-//        GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [ "7d64b4b4bb186e4d3d3778990722882f" ]
-//        #endif
+        #if DEBUG
+        GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [ "871aa86b01c20772d6aa83d4ab6fbf26" ]
+        #endif
     }
 
     typealias AdCompletion = ((CGSize, YLBannerView?, Error?) -> Void)
@@ -120,7 +120,7 @@ fileprivate class YieldAdLoader: YLBannerViewDelegate {
 
     @objc func requestAd(with adSlotId: String, inViewController: UIViewController, addedTo view: UIView, completion:AdCompletion?) {
 
-        guard isConsentReady else { return }
+//        guard isConsentReady else { return }
 
         let loader = YieldAdLoader(adSlotId: adSlotId, inViewController: inViewController, viewToAdd: view) { (adSize, bannerView, error, uuid) in
             self.adLoaders.removeValue(forKey: uuid)

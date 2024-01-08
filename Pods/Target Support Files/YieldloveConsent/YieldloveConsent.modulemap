@@ -1,0 +1,6 @@
+framework module YieldloveConsent {
+  umbrella header "YieldloveConsent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF93C0F8664A83D0D636ACC1 /* Pods_TestAdYieldlove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0663CB493F1E1F492E679FE5 /* Pods_TestAdYieldlove.framework */; };
 		DFD7D3D12B4C0212004F1743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3D02B4C0212004F1743 /* AppDelegate.swift */; };
 		DFD7D3D32B4C0212004F1743 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3D22B4C0212004F1743 /* SceneDelegate.swift */; };
 		DFD7D3D52B4C0212004F1743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3D42B4C0212004F1743 /* ViewController.swift */; };
-		DFD7D3D82B4C0212004F1743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD7D3D62B4C0212004F1743 /* Main.storyboard */; };
 		DFD7D3DB2B4C0212004F1743 /* TestAdYieldlove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3D92B4C0212004F1743 /* TestAdYieldlove.xcdatamodeld */; };
 		DFD7D3DD2B4C0213004F1743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD7D3DC2B4C0213004F1743 /* Assets.xcassets */; };
 		DFD7D3E02B4C0213004F1743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD7D3DE2B4C0213004F1743 /* LaunchScreen.storyboard */; };
+		DFD7D3EC2B4C04C5004F1743 /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3E92B4C04C5004F1743 /* BannerViewModel.swift */; };
+		DFD7D3ED2B4C04C5004F1743 /* YieldloveAdIntegrationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3EA2B4C04C5004F1743 /* YieldloveAdIntegrationBridge.swift */; };
+		DFD7D3F02B4C0504004F1743 /* PureLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DFD7D3EF2B4C0504004F1743 /* PureLayout */; };
+		DFD7D3F22B4C052A004F1743 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7D3F12B4C052A004F1743 /* UIApplication+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0663CB493F1E1F492E679FE5 /* Pods_TestAdYieldlove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAdYieldlove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431595CA04322AF6C6B31763 /* Pods-TestAdYieldlove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAdYieldlove.release.xcconfig"; path = "Target Support Files/Pods-TestAdYieldlove/Pods-TestAdYieldlove.release.xcconfig"; sourceTree = "<group>"; };
+		8E8039A0E10FF42ED1B106F1 /* Pods-TestAdYieldlove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAdYieldlove.debug.xcconfig"; path = "Target Support Files/Pods-TestAdYieldlove/Pods-TestAdYieldlove.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD7D3CD2B4C0212004F1743 /* TestAdYieldlove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAdYieldlove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD7D3D02B4C0212004F1743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD7D3D22B4C0212004F1743 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DFD7D3D42B4C0212004F1743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFD7D3D72B4C0212004F1743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFD7D3DA2B4C0212004F1743 /* TestAdYieldlove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestAdYieldlove.xcdatamodel; sourceTree = "<group>"; };
 		DFD7D3DC2B4C0213004F1743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD7D3DF2B4C0213004F1743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD7D3E12B4C0213004F1743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD7D3E92B4C04C5004F1743 /* BannerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
+		DFD7D3EA2B4C04C5004F1743 /* YieldloveAdIntegrationBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YieldloveAdIntegrationBridge.swift; sourceTree = "<group>"; };
+		DFD7D3F12B4C052A004F1743 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD7D3F02B4C0504004F1743 /* PureLayout in Frameworks */,
+				DF93C0F8664A83D0D636ACC1 /* Pods_TestAdYieldlove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AF529E88F7950DF5B8F9EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0663CB493F1E1F492E679FE5 /* Pods_TestAdYieldlove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFD7D3C42B4C0212004F1743 = {
 			isa = PBXGroup;
 			children = (
 				DFD7D3CF2B4C0212004F1743 /* TestAdYieldlove */,
 				DFD7D3CE2B4C0212004F1743 /* Products */,
+				F2523594E393C5674812F080 /* Pods */,
+				6AF529E88F7950DF5B8F9EE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +79,35 @@
 		DFD7D3CF2B4C0212004F1743 /* TestAdYieldlove */ = {
 			isa = PBXGroup;
 			children = (
+				DFD7D3E72B4C04C5004F1743 /* Ads */,
 				DFD7D3D02B4C0212004F1743 /* AppDelegate.swift */,
 				DFD7D3D22B4C0212004F1743 /* SceneDelegate.swift */,
 				DFD7D3D42B4C0212004F1743 /* ViewController.swift */,
-				DFD7D3D62B4C0212004F1743 /* Main.storyboard */,
 				DFD7D3DC2B4C0213004F1743 /* Assets.xcassets */,
 				DFD7D3DE2B4C0213004F1743 /* LaunchScreen.storyboard */,
 				DFD7D3E12B4C0213004F1743 /* Info.plist */,
 				DFD7D3D92B4C0212004F1743 /* TestAdYieldlove.xcdatamodeld */,
 			);
 			path = TestAdYieldlove;
+			sourceTree = "<group>";
+		};
+		DFD7D3E72B4C04C5004F1743 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7D3E92B4C04C5004F1743 /* BannerViewModel.swift */,
+				DFD7D3EA2B4C04C5004F1743 /* YieldloveAdIntegrationBridge.swift */,
+				DFD7D3F12B4C052A004F1743 /* UIApplication+Extension.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		F2523594E393C5674812F080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E8039A0E10FF42ED1B106F1 /* Pods-TestAdYieldlove.debug.xcconfig */,
+				431595CA04322AF6C6B31763 /* Pods-TestAdYieldlove.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +117,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD7D3E42B4C0213004F1743 /* Build configuration list for PBXNativeTarget "TestAdYieldlove" */;
 			buildPhases = (
+				490D38D7C5004B1457F2BFC5 /* [CP] Check Pods Manifest.lock */,
 				DFD7D3C92B4C0212004F1743 /* Sources */,
 				DFD7D3CA2B4C0212004F1743 /* Frameworks */,
 				DFD7D3CB2B4C0212004F1743 /* Resources */,
+				BDF1C9F7425BD791E8C9BA4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TestAdYieldlove;
+			packageProductDependencies = (
+				DFD7D3EF2B4C0504004F1743 /* PureLayout */,
+			);
 			productName = TestAdYieldlove;
 			productReference = DFD7D3CD2B4C0212004F1743 /* TestAdYieldlove.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +159,9 @@
 				Base,
 			);
 			mainGroup = DFD7D3C42B4C0212004F1743;
+			packageReferences = (
+				DFD7D3EE2B4C0504004F1743 /* XCRemoteSwiftPackageReference "PureLayout" */,
+			);
 			productRefGroup = DFD7D3CE2B4C0212004F1743 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,11 +178,52 @@
 			files = (
 				DFD7D3E02B4C0213004F1743 /* LaunchScreen.storyboard in Resources */,
 				DFD7D3DD2B4C0213004F1743 /* Assets.xcassets in Resources */,
-				DFD7D3D82B4C0212004F1743 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490D38D7C5004B1457F2BFC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestAdYieldlove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF1C9F7425BD791E8C9BA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAdYieldlove/Pods-TestAdYieldlove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAdYieldlove/Pods-TestAdYieldlove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAdYieldlove/Pods-TestAdYieldlove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFD7D3C92B4C0212004F1743 /* Sources */ = {
@@ -143,6 +232,9 @@
 			files = (
 				DFD7D3D52B4C0212004F1743 /* ViewController.swift in Sources */,
 				DFD7D3D12B4C0212004F1743 /* AppDelegate.swift in Sources */,
+				DFD7D3F22B4C052A004F1743 /* UIApplication+Extension.swift in Sources */,
+				DFD7D3ED2B4C04C5004F1743 /* YieldloveAdIntegrationBridge.swift in Sources */,
+				DFD7D3EC2B4C04C5004F1743 /* BannerViewModel.swift in Sources */,
 				DFD7D3DB2B4C0212004F1743 /* TestAdYieldlove.xcdatamodeld in Sources */,
 				DFD7D3D32B4C0212004F1743 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFD7D3D62B4C0212004F1743 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFD7D3D72B4C0212004F1743 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFD7D3DE2B4C0213004F1743 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -207,7 +291,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -222,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,7 +354,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -279,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -291,25 +375,26 @@
 		};
 		DFD7D3E52B4C0213004F1743 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8039A0E10FF42ED1B106F1 /* Pods-TestAdYieldlove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M7NT4ZT48M;
+				DEVELOPMENT_TEAM = VZF9RCF35Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestAdYieldlove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukalesic.TestAdYieldlove;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smba.kwiss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,25 +404,26 @@
 		};
 		DFD7D3E62B4C0213004F1743 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431595CA04322AF6C6B31763 /* Pods-TestAdYieldlove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M7NT4ZT48M;
+				DEVELOPMENT_TEAM = VZF9RCF35Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestAdYieldlove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukalesic.TestAdYieldlove;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smba.kwiss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -367,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFD7D3EE2B4C0504004F1743 /* XCRemoteSwiftPackageReference "PureLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PureLayout/PureLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFD7D3EF2B4C0504004F1743 /* PureLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFD7D3EE2B4C0504004F1743 /* XCRemoteSwiftPackageReference "PureLayout" */;
+			productName = PureLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DFD7D3D92B4C0212004F1743 /* TestAdYieldlove.xcdatamodeld */ = {
